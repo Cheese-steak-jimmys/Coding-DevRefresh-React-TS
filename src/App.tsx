@@ -1,9 +1,11 @@
-import ListGroup from './components/ListGroup';
+import ListGroup from "./components/ListGroup";
 
 function App() {
+    let items = ["Mars", "Saturn", "Earth", "Venus", "Mercury"];
+  
   return (
     <div>
-      <ListGroup />
+      <ListGroup items={items} heading={'Planets'}/>
     </div>
   );
 }
